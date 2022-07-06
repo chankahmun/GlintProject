@@ -5,9 +5,9 @@ import DefaultErrorPage from 'next/error';
 import Head from 'next/head';
 import "../components/heading";
 import "../components/button";
-
+import {APIKEY} from '../setting';
 // Replace with your Public API Key
-builder.init("1aa03f9795dc4c968e35f530b3a13622");
+builder.init(APIKEY);
 
 export async function getStaticProps({ params }) {
   // Fetch the builder content
