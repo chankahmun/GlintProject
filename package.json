@@ -1,0 +1,26 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@builder.io/react": "^2.0.1",
+    "glints-aries": "^4.0.154",
+    "next": "12.2.0",
+    "next-transpile-modules": "^9.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-gtm-module": "^2.0.11",
+    "react-syntax-highlighter": "^15.5.0",
+    "styled-components": "^5.3.5"
+  },
+  "devDependencies": {
+    "eslint": "8.19.0",
+    "eslint-config-next": "12.2.0"
+  }
+}
